@@ -14,8 +14,9 @@
 ## Enumeration:
 ### Port Scanning
 Ran Rustscan then piped results to Nmap
+```
 rustscan -a http://10.1.104.188 -- -A
-
+```
 ```bash
 PORT   STATE SERVICE REASON         VERSION
 22/tcp open  ssh     syn-ack ttl 62 OpenSSH 8.9p1 Ubuntu 3ubuntu0.13 (Ubuntu Linux; protocol 2.0)
