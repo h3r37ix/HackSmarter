@@ -14,6 +14,7 @@
 ## Enumeration:
 ### Port Scanning
 Ran Rustscan then piped results to Nmap
+rustscan -a http://10.1.104.188 -- -A
 
 ```bash
 PORT   STATE SERVICE REASON         VERSION
