@@ -12,6 +12,7 @@
 **Objective:** As part of a penetration test, your team identified an interesting web server. Your task is to enumerate the target, establish an initial foothold, and escalate privileges to root.
 
 ## Enumeration:
+### Port Scanning
 Ran Rustscan then piped results to Nmap
 
 ```bash
